@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        div {
+            background-color: red;
+            opacity: 0.5;
+        }
+
+        h2.a {
+            visibility: visible;
+        }
+
+        h2.b {
+            visibility: hidden;
+        }
+
+        /* links */
+        a:link {
+            color: blueviolet;
+        }
+
+        a:visited {
+            color: aqua;
+        }
+
+        a:hover {
+            color: black;
+            text-decoration: none;
+        }
+
+        a:active {
+            color: red;
+        }
+
+        /*lists  */
+        li::marker {
+            color: brown;
+        }
+
+        ul.a {
+            list-style-type: circle;
+        }
+
+        ol.b {
+            list-style-type: upper-roman;
+        }
+
+        /* CSS Display */
+        p {
+            color: red;
+        }
+
+        p.x {
+            display: none;
+        }
+
+        p.y {
+            display: inline;
+        }
+
+        p.z {
+            display: block;
+        }
+
+        p.q {
+            display: inline-block;
+        }
+    
+    </style>
+</head>
+
+<body>
+    <!-- opcity -->
+    <h3>The opacity Property</h3>
+
+    <p>The opacity property sets the opacity level for an element 0 to 1</p>
+
+    <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis
+        blandit...</div>
+    <!-- The visibility property specifies whether or not an element is visible. -->
+    <h1 id="one">The visibility Property</h1>
+
+    <h2 class="a">This heading is visible</h2>
+
+    <h2 class="b">This heading is hidden</h2>
+
+    <p>Notice that the hidden heading still takes up space on the page.</p>
+    <!-- Links -->
+    <a href="#">Tops</a>
+    <!-- CSS lists -->
+    <!-- unorderd list -->
+    <ul class="a">
+        <li>Tops</li>
+        <li>Tops</li>
+        <li>Tops</li>
+    </ul>
+    <!-- orderd list -->
+    <ol class="b">
+        <li>Tops</li>
+        <li>Tops</li>
+        <li>Tops</li>
+    </ol>
+    <!--  CSS display -->
+    <!-- The display property specifies the display behavior of an element. -->
+    <h1>The display Property</h1>
+
+    <h2>display: none:</h2>
+    <div>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis
+        blandit. <p class="x">HELLO Tops!</p> Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut.
+    </div>
+
+    <h2>display: inline:</h2>
+    <div>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis
+        blandit. <p class="y">HELLO Tops!</p> Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut.
+    </div>
+
+    <h2>display: block:</h2>
+    <div>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis
+        blandit. <p class="z">HELLO Tops!</p> Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut.
+    </div>
+
+    <h2>display: inline-block:</h2>
+    <div>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis
+        blandit. <p class="q">HELLO Tops!</p> Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut.
+    </div>
+
+</body>
+
+</html>
