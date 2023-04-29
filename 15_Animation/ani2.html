@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            height: 100px;
+            width: 100px;
+            animation: one 4s infinite;
+            position: relative;
+        }
+
+        #one {
+            background-color: red;
+            animation-timing-function: ease;
+        }
+        
+        #two {
+            background-color: green;
+            animation-timing-function: ease-in;
+        }
+        
+        #three {
+            background-color: blue;
+            animation-timing-function: ease-out;
+        }
+        
+        #four {
+            background-color: black;
+            animation-timing-function: ease-in-out;
+        }
+        
+        #five {
+            background-color: orangered;
+            animation-timing-function: step-start;
+         
+        }
+        @keyframes one {
+            from{
+                left: 0;
+            }
+            to{
+                left: 50%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="one"></div>
+    <div id="two"></div>
+    <div id="three"></div>
+    <div id="four"></div>
+    <div id="five"></div>
+</body>
+
+</html>
